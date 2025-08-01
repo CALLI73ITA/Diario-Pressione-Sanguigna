@@ -70,3 +70,4 @@ else:
 # Tabella dati
 st.subheader("📋 Storico dati inseriti")
 st.dataframe(st.session_state.data.sort_values(by="DataOra", ascending=False))
+"Corretto errore form"
